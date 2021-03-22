@@ -27,6 +27,7 @@ Introduzione all'IoT - Mini sistema IoT con sensori di temperatura e dashboard o
 - Linux 
 - Micropython 
 - Python3
+- Thonny
 
 ### Librerie python3 per Gateway
 - pip install paho-mqtt
