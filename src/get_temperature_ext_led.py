@@ -8,8 +8,6 @@ conversion_factor = 3.3 / (65535)
 led_external = machine.Pin(15, machine.Pin.OUT)
 led_onboard = machine.Pin(25, machine.Pin.OUT)
 
-from machine import UART
-uart = UART(1, 9600)
 
 while True:
     reading = sensor_temp.read_u16() * conversion_factor
@@ -22,6 +20,5 @@ while True:
         led_external.value(0)
         led_onboard.toggle()
     
-    uart.write(str(temperature))
     print (temperature)
     utime.sleep(0.5)
