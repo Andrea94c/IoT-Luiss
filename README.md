@@ -1,4 +1,4 @@
-# IoT-Luiss
+# IoT Demo - MBA CDP Luiss 2022 
 Introduzione all'IoT - Mini sistema IoT con sensori di temperatura e dashboard online
 
 
